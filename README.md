@@ -10,7 +10,7 @@ The kernels and benchmarks below are explicitly altered and tuned for the Blackw
 
 Here you can see that my tiled matrix multiplication kernel achieves cuBLAS-level TFLOPS on FP16
 
-![FP8 TFLOPS Benchmark](benchmarks/matrix-multiplication/matmul-performance-fp16.png)
+![FP8 TFLOPS Benchmark](benchmarks/matrix-multiplication/matmul-performance-fp8.png)
 
 FP8 achieves almost double the throughput of FP16 in tiled matrix multiplication using the same kernel
 
