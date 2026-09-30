@@ -4,6 +4,9 @@ This repository documents my exploration of GPU memory hierarchy optimizations, 
 By deconstructing the architectural mechanics of FlashAttention and FlashAttention-2, I built custom Triton kernels which optimize their respective algorithms for memory efficiency.
 The kernels and benchmarks below are explicitly altered and tuned for the Blackwell architecture (NVIDIA RTX 5070 Ti).
 
+Note: The core FlashAttention-2 implementation is heavily based on the official Triton tutorial. 
+My primary focus in this repository was deconstructing, annotating, and benchmarking this complex reference code to bridge the gap between the theoretical paper and actual hardware execution on my RTX 5070 Ti.
+
 ## Tiled MatMul
 
 ![FP16 TFLOPS Benchmark](benchmarks/matrix-multiplication/matmul-performance-fp16.png)
