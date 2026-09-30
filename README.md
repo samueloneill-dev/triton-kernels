@@ -1,7 +1,7 @@
 # Triton Kernels
 
 This repository documents my exploration of GPU memory hierarchy optimizations, specifically focusing on Transformer self-attention.
-By deconstructing the architectural mechanics of FlashAttention and FlashAttention-2, I built custom Triton kernels to maximize memory efficiency.
+By deconstructing the architectural mechanics of FlashAttention and FlashAttention-2, I built custom Triton kernels which optimize their respective algorithms for memory efficiency.
 The kernels and benchmarks below are explicitly altered and tuned for the Blackwell architecture (NVIDIA RTX 5070 Ti).
 
 ## Tiled MatMul
